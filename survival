@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Survival Kit e Keys Flaming Fênix </title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("https://cdn.discordapp.com/icons/1425261248613711875/02578477f52d2b048d0e790e47d5f8be.png?size=2048");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+
+/* FOGO */
+.fire {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+  background: radial-gradient(circle, rgba(255,140,0,0.8), rgba(255,69,0,0.4), transparent 70%);
+  filter: blur(25px);
+  animation: flames 3s infinite alternate;
+  z-index: -1;
+}
+@keyframes flames {
+  0% { transform: translateY(0); opacity: .6; }
+  100% { transform: translateY(-40px); opacity: 1; }
+}
+
+h1, h2 {
+  text-align: center;
+  text-shadow: 0 0 15px #ff4500;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 20px;
+}
+
+.card {
+  background: linear-gradient(145deg, #2b0000, #5a0000);
+  width: 280px;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 0 25px rgba(255, 69, 0, 0.6);
+}
+
+.card-title {
+  font-weight: bold;
+  color: #ffd27d;
+  margin-bottom: 10px;
+}
+
+.price {
+  color: #00ff99;
+}
+
+.lp {
+  background: black;
+  padding: 6px;
+  border-radius: 6px;
+  font-family: monospace;
+  color: #ffae00;
+  margin-top: 10px;
+  display: inline-block;
+}
+</style>
+</head>
+
+<body>
+
+<div class="fire"></div>
+
+<h1>🔥Survival Kit e Keys Flaming Fênix 🔥</h1>
+
+<!-- VIPS -->
+<h2>Kits VIP</h2>
+<div class="container">
+
+<div class="card">
+  <div class="card-title">VIP Fênix <span class="price">R$ 69,99</span></div>
+  <p>💰 500.000 de money para começar já na frente</p>
+  <p>✨ 20.000 shards</p>
+  <p>🕊 Acesso ao comando /fly para voar livremente</p>
+  <p>🛠 Acesso ao /mesas para abrir mesas de trabalho em qualquer lugar</p>
+  <div class="lp">&6[VIP-FÊNIX]</div>
+</div>
+
+<div class="card">
+  <div class="card-title">VIP Soberano <span class="price">R$ 50,00</span></div>
+  <p>💰 300.000 de money</p>
+  <p>✨ 7500 Shards</p>
+  <p>🕊 Acesso ao comando /fly para voar livremente</p>
+  <div class="lp">&e[VIP-SOBERANO]</div>
+</div>
+
+<div class="card">
+  <div class="card-title">VIP Nobre <span class="price">R$ 15,00</span></div>
+  <p>💰 150.000 de money para dar um ótimo começo</p>
+  <p>✨ 5.000 shards</p>
+  <div class="lp">&a[VIP-NOBRE]</div>
+</div>
+
+<div class="card">
+  <div class="card-title">VIP Explorer <span class="price">R$ 10,00</span></div>
+  <p>💰 50.000 de money</p>
+  <p>🧭 Começo facilitado</p>
+  <div class="lp">&b[VIP-EXPLORER]</div>
+</div>
+
+</div>
+
+<!-- KITS -->
+<h2>Kits</h2>
+<div class="container">
+
+  <div class="card">
+    <div class="card-title">Kit Clava <span class="price">R$ 24,99</span></div>
+    <p>🪓 O kit vem com:</p>
+    <p>• 3 Clavas FULL encantamentos</p>
+    <p>• 3 Elytras FULL encantamentos</p>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Kit Streamer <span class="price">Em breve</span></div>
+    <p>📌 Requisitos:</p>
+    <p>Em breve...</p>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Kit Nitro <span class="price">Especial</span></div>
+    <p>📌 Requisitos:</p>
+    <p>Nitrar o servidor 2 vezes</p>
+  </div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- KEYS -->
+<h2>Keys</h2>
+<div class="container">
+
+<div class="card">
+  <div class="card-title">Key Ametista <span class="price">R$ 20,00</span></div>
+  <p>💎 Caixa Ametista</p>
+  <p>Você escolhe a recompensa.</p>
+  <p>Ex: escolheu a elytra indestrutível e recebe automaticamente.</p>
+  <p>Itens</p>
+  <p>🎆 Fogo de Artifício Infinito Nunca mais ficar sem foguete pra voar com a Elytra!</p>
+  <p>⛏️ Picareta de Ametista 3x3</p>
+  <p>Mineração em área 3x3, perfeita pra fazer bases e farms</p>
+  <p>🪓 Machado de Ametista Quebra a árvore inteira de uma vez. Adeus cortar tronco por tronco!</p>
+  <p>🥄 Pá de Ametista 3x3 Remove terra, areia e cascalho em 3x3 com muito mais rapidez.</p>
+  <p>🪣 Balde Especial 3x3 Seca área 3x3 de água de uma só vez. Ideal pra construções e drenagens</p>
+  <p>Elytra inquebravel Cansou de sua elytra quebrar no meio da viagem e você morrer lançamos a elytra inquebravel</p>
+  <p>Spawner de Diamante</p>
+  <p>Spawner de Esmeralda</p>
+  <p>Spawner de Ouro</p>
+  <p>Spawner de Carvao</p>
+  <p>500k de money</p>
+</div>
+
+</div>
+<div style="text-align:center; margin:60px 0;">
+
+  <a href="https://discord.gg/wUFJs8j7"
+     target="_blank"
+     style="
+       display:inline-block;
+       padding:15px 35px;
+       background:#5865F2;
+       color:white;
+       font-weight:bold;
+       font-size:18px;
+       border-radius:15px;
+       text-decoration:none;
+     ">
+     💬 Entrar no Discord
+  </a>
+
+  <p style="margin-top:12px; font-size:14px; color:#ddd;">
+    Clique para ver os itens dos kits, vips e keys no Discord
+  </p>
+
+</div>
+<div style="
+  text-align:center;
+  margin:60px 20px;
+  padding:25px;
+  background: rgba(0,0,0,0.6);
+  border-radius:15px;
+  box-shadow: 0 0 20px #ff4500;
+">
+
+  <p style="font-size:18px; font-weight:bold;">
+    Adquira já o seu VIP, Kit ou Key no servidor do Discord
+  </p>
+
+  <p>
+    <a href="https://discord.gg/WdARE9DA" target="_blank" style="color:#00bfff; font-weight:bold;">
+      👉 https://discord.gg/WdARE9DA
+    </a>
+  </p>
+
+  <hr style="border:1px solid #ff4500; margin:20px 0;">
+
+  <p style="font-size:16px;">
+    🖥 <strong>Acesso ao Java:</strong><br>
+    br-03.hostzera.com.br:19734
+  </p>
+
+  <p style="font-size:16px;">
+    📱 <strong>Acesso ao Bedrock:</strong><br>
+    IP: br-03.hostzera.com.br<br>
+    Porta: 19734
+  </p>
+<p>Site feito por otavio</p>
+</div>
+
+</body>
+</html>
